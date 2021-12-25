@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: lightblue;
+
+        }
+        /* CSS position: static(default) , absolute , relative , fixed , sticky */
+        .box{
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        #box3{
+            /* relative: relative to its normal position one can specificly edit it  */
+            
+            /* position: relative; */
+            
+            /* absolute: depends on parent .. edit it but respect to parent  */
+            /* position: absolute;  */
+
+             /* fixed: edit it just repsect to browser window (best one)  */
+             /* position: fixed;
+             right: 4px; */
+            
+            
+             /* fixed: Sticks where u kept it not matter even if u scroll .. its sticked  */
+             position: sticky;
+             top: 3px;
+
+             
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>

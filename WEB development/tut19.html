@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(173, 245, 227);
+        }
+        .container{
+            background-color: pink;
+            border: 3px solid purple;
+            padding: 34px 19px;
+             margin: 34px;  /* one can aslo do padding from each side */
+        /* also one can write 23px 56px 6px 78px padding: top right bottom left Like this too */
+        border-radius: 23px;
+        width: 233px;
+        box-sizing: border-box;
+        
+      }
+
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <h3>This is my heading</h3>
+        <p id = "first"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil autem quidem voluptate porro odio odit voluptates accusantium? Culpa alias tempore cumque voluptate, nostrum esse omnis veniam similique adipisci. Harum, architecto.
+        </p>
+    </div>
+
+    <div class="container" >
+        <h3>This is my heading</h3>
+        <p id = "second"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil autem quidem voluptate porro odio odit voluptates accusantium? Culpa alias tempore cumque voluptate, nostrum esse omnis veniam similique adipisci. Harum, architecto.
+        </p>
+    </div>
+
+    <div class="container" >
+        <h3>This is my heading</h3>
+        <p id = "third"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil autem quidem voluptate porro odio odit voluptates accusantium? Culpa alias tempore cumque voluptate, nostrum esse omnis veniam similique adipisci. Harum, architecto.
+        </p>
+    </div>
+    
+</body>
+</html>
